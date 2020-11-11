@@ -1,0 +1,93 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background: url(../img/background.jpg) no-repeat top;
+    font-family: sans-serif;
+    height: 100vh;
+    /*
+    * https://pixabay.com/es/photos/monta%C3%B1a-viajar-panor%C3%A1mico-paisaje-3274269/
+    * https://pixabay.com/es/illustrations/bitcoin-btc-criptomoneda-1813545/
+     */
+}
+
+.title {
+    left: 45%;
+    /* top: 15%; */
+    position: absolute;
+    color: white;
+}
+
+.login-box {
+    width: 20em;
+    height: 28em;
+    background: #927171;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 5em 2em;
+}
+
+.login-box .logo {
+    width: 9em;
+    height: 9em;
+    border-radius: 50%;
+    position: absolute;
+    top: -4em;
+    left: -2em;
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0 0 1em;
+}
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.login-box input::placeholder {
+    color: white;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 0.1em solid white;
+    background: transparent;
+    color: white;
+    outline: none;
+    height: 3em;
+    font-size: 1em;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 3em;
+    background: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    color: white;
+}
+
+.login-box a:hover {
+    color: black;
+}

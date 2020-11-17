@@ -19,12 +19,12 @@
             <img class="logo" src="./img/logo.png" alt="Bitcoin">
             <h2>Login</h2>
 
-            <form action="./php/save.php">
+            <form name="form" method="POST" action="./php/save.php">
                 <label for="user_name">User</label>
                 <input type="text" name="user_name" placeholder="Enter usser here" required>
 
                 <label for="pass">Password</label>
-                <input type="password" name="pass" placeholder="Enter password here" required>
+                <input type="password" id="pass" name="pass" placeholder="Enter password here" required>
 
                 <input type="submit" name="" id="" value="Log in">
                 <a href="">Lost your password ?</a>

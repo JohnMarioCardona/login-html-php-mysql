@@ -3,3 +3,8 @@ Prueba de manejo de login mediante base de datos mysql,  fronted: HTML, CSS, JAV
 
 
 ![alt text](https://github.com/JohnMarioCardona/login-html-php-mysql/blob/master/img/screen.PNG)
+
+
+Tabla usuarios:
+
+![alt text](https://github.com/JohnMarioCardona/login-html-php-mysql/blob/master/img/DB1.png)

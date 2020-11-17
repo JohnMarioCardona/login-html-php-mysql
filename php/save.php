@@ -15,22 +15,23 @@
  
      $user = $_POST["user_name"];
      $pass = $_POST["pass"];
-     echo $user.' '.$pass;
+
  
 
      $conexion = mysqli_connect("localhost", "root", "", "logeando");
      mysqli_query($conexion,"SET NAMES 'utf8'");
 
-     $consulta = "SELECT * FROM usuarios ";
+     $consulta = "SELECT * FROM usuarios WHERE username ='$user' AND userpassword='$pass'";
      $resultado = mysqli_query($conexion, $consulta);
 
-     
-
+         
      while($row = $resultado->fetch_assoc()){
         extract($row);  
+        echo 'Felicidades tu nombre es: '.$username.' y tienes el email: '.$email;
     }
-  
-  echo $name;
+   
+ 
+     
     //  Terminar la conexion con la base de datos 
     mysqli_close($conexion);
  
